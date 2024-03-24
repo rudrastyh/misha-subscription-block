@@ -1,0 +1,34 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-misha-subscription-block {
+
+	.misha-subscription-block-content{
+		div{
+			border: 1px solid #1f2933;
+		  display:flex;
+		  margin-top: 40px;
+		  margin-bottom: 0;
+			font-size: 14px;
+			justify-content: space-between;
+
+			span:first-child{
+				padding: 14px 20px;
+				width: 100%;
+				max-width: 50%;
+				border:0;
+				outline: 0;
+			}
+			span:last-child{
+				background-color: #1f2933;
+			  color: #fff;
+			  padding: 13px 20px;
+			  border: 0;
+			  cursor:pointer;
+			}
+		}
+	}
+}

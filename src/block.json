@@ -1,0 +1,53 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "misha/subscription-block",
+	"version": "1.0.0",
+	"title": "Misha Subscription Block",
+	"category": "design",
+	"icon": "email-alt2",
+	"description": "Blah blah blah 1234",
+	"supports": {
+		"html": true,
+		"align" : [ "wide" ],
+		"color" : {
+			"text" : false,
+			"background" : true
+		},
+		"anchor" : true
+	},
+	"textdomain": "misha-subscription-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes" : {
+		"titletext" : {
+			"type" : "string",
+			"selector" : "h3",
+			"default" : "Take 10% off your first order",
+			"source" : "text"
+		},
+		"btntext" : {
+			"type" : "string",
+			"selector" : "button",
+			"default" : "Subscribe",
+			"source" : "text"
+		},
+		"justtext" : {
+			"type" : "string",
+			"selector" : "p",
+			"default" : "Become a subscriber to get instantly 10% off your first purchase.",
+			"source" : "html"
+		},
+		"list_id" : {
+			"type" : "string"
+		},
+		"doubleoptin" : {
+			"type" : "boolean"
+		},
+		"image" : {
+			"type" : "object",
+			"default" : { "id" : 0 }
+		}
+	}
+}

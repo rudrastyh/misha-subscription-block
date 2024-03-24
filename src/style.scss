@@ -1,0 +1,59 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-misha-subscription-block {
+	border: 1px solid #1f2933;
+  padding: 40px 0;
+
+	.misha-subscription-block-wrapper{
+	  display: flex;
+	}
+
+	.misha-subscription-block-image{
+		background-position: top center;
+		background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 250px;
+	  min-height: 250px;
+	}
+
+	.misha-subscription-block-content{
+	  margin: 0 auto;
+	  max-width: 350px;
+	  line-height: 1.5;
+	  padding-left: 40px;
+	  padding-right: 40px;
+
+		h3{
+			font-size: 40px;
+		  margin: 0;
+		  line-height: 1.1;
+		}
+
+		form{
+			border: 1px solid #1f2933;
+		  display:flex;
+		  margin-top: 40px;
+		  margin-bottom: 0;
+
+			input{
+				padding: 14px 20px;
+				width: 100%;
+				border:0;
+				outline: 0;
+			}
+			button{
+				background-color: #1f2933;
+			  color: #fff;
+			  padding: 8px 20px;
+			  border: 0;
+			  cursor:pointer;
+				white-space: nowrap;
+			}
+		}
+	}
+}
